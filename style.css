@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    min-height: 80px;
+    width: 100vw;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    gap: 20px;
+}
+
+p.title{
+    padding: 20px;
+}
+
+body{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.recipe-content{
+    width: 70vw;
+    background-color: #0ba360;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div img{
+    width: 300px;
+}
+
+ul li{
+    list-style-position: inside;
+}
+
+.footer{
+    width: 100vw;
+    height: 80px;
+    background-color: #0ba360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
